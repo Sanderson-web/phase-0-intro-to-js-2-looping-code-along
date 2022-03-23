@@ -12,10 +12,10 @@ writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
 
 
 function countDown() {
-    let countDown = 0
-    while (countDown <= 10) {
+    let countDown = 10
+    while (countDown >= 0) {
        console.log(countDown);
-       countDown++;
+       countDown--;
     }
     return;
 }
